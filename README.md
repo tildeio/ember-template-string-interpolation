@@ -1,7 +1,17 @@
 ember-template-string-interpolation
 ==============================================================================
 
-[Short description of the addon.]
+An experimental addon that implements the [Handlebars String Interpolation][1]
+proposal.
+
+At present, it is just a crude implementation, and only very few limited cases
+actually work, and definitely not production ready. You can see the list of
+cases we support in the [test][2]. Please do try to poke at it to find cases
+that doesn't work and open an issue for each, or better yet, send a PR with a
+failing test case.
+
+[1]: https://github.com/emberjs/rfcs/issues/623
+[2]: ./tests/integration/components/string-interpolation-test.js
 
 
 Compatibility
@@ -18,12 +28,6 @@ Installation
 ```
 ember install ember-template-string-interpolation
 ```
-
-
-Usage
-------------------------------------------------------------------------------
-
-[Longer description of how to use the addon in apps.]
 
 
 Contributing
