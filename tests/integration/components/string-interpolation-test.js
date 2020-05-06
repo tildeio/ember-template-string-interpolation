@@ -6,7 +6,7 @@ import { hbs } from 'ember-cli-htmlbars';
 module('Integration | string-interpolation', function(hooks) {
   setupRenderingTest(hooks);
 
-  test('It can interpolate strings', async function(assert) {
+  test('It can interpolate simple strings', async function(assert) {
     this.set('user', {
       firstName: 'Krystan',
       lastName: 'HuffMenne'
