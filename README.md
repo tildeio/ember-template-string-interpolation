@@ -1,6 +1,11 @@
 ember-template-string-interpolation
 ==============================================================================
 
+> [!WARNING]
+> This addon is deprecated. We very much still would love to see the feature
+> materialize, but at this time we don't have the time to push it forward
+> ourselves.
+
 An experimental addon that implements the [Handlebars String Interpolation][1]
 proposal.
 
